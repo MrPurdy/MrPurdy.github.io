@@ -20,15 +20,17 @@
 
     <button onclick="
         var num1 = document.getElementById('n1');
-        num1 = Number(num1)
+        num1 = Number(num1);
         var num2 = document.getElementById('n2');
-        num2 = Number(num2)
+        num2 = Number(num2);
         var num3 = document.getElementById('n3');
-        num3 = Number(num3)
+        num3 = Number(num3);
         var num4 = document.getElementById('n4');
-        num4 = Number(num4)
+        num4 = Number(num4);
         var sum = num1 + num2 + num3 + num4;
+        var average = sum / 4
         document.writeln('Sum: ' + sum);
+        document.writeln('Average: ' + average);
     ">Calculate Sum and Average</button>
 </body>
 </html>
