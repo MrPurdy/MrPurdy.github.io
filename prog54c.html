@@ -8,9 +8,21 @@
 <body>
     <label for="rad">Radius: </label>
     <input type="number" id="rad" name="rad">
+    <label for="are">Area: </label>
+    <input type="number" id="are" name="are">
+    <label for="cir">Circumference: </label>
+    <input type="number" id="cir" name="cir">
 
     <button onclick="
+    var rad = document.getElementById('rad').value;
+        rad = Number(rad);
+        var are = document.getElementById('are').value;
+        are = Number(are);
+        var are = document.getElementById('are').value;
+        are = Number(are);
     var pi = 3.14159;
+    var cir = 2 * rad
+    decp = decp.toFixed(5);
     ">Calculate Area & Circumference</button>
 </body>
 </html>
