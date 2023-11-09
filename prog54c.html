@@ -18,11 +18,15 @@
         rad = Number(rad);
         var are = document.getElementById('are').value;
         are = Number(are);
-        var are = document.getElementById('are').value;
-        are = Number(are);
+        var cir = document.getElementById('cir').value;
+        cir = Number(cir);
     var pi = 3.14159;
-    var cir = 2 * rad
-    decp = decp.toFixed(5);
+    var cir = 2 * pi * rad
+    var are = pi * rad * rad
+    document.writeln('Radius: ' + rad);
+    document.writeln('Circumference: ' + cir);
+    document.writeln('Area: ' + are);
+    decp = decp.toFixed('5');
     ">Calculate Area & Circumference</button>
 </body>
 </html>
