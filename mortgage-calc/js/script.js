@@ -1,3 +1,6 @@
 function calc() {
-   var p 
+   var Principal = 4
+   var p = document.getElementById("output");
+    var out = "";
+    out += "Principal:"       + Principal + "<br/>";
 }
