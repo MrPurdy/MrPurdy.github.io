@@ -1,8 +1,11 @@
 * {
-    background: #e69898;
-    color: rgb(74, 114, 233);
+    background: #edf0f5;
+    color: rgb(0, 0, 0);
     text-align: center;
-    padding: 30px;
-    font-size: 35px; 
+    padding: 5px;
+    border-radius: 0%;
+    border-width: 2px;
+    border-color: #d2def1;
     font-family: "Freight Sans Bold", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
 }
+button { background: #6d48ff; }
