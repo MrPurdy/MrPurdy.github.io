@@ -10,18 +10,19 @@
 <body>
     <form action="Server URL">
    <fieldset>
-   <label for="Principal">Principal: </label>
-   <input type="number" id="Principal" name="Principal" min="0">
-   <label for="interest">Interest Rate as % (e.g. 7.9): </label>
-   <input type="number" id="interest" name="interest" min="0">
-   <label for="Years">Number of Years: </label>
-   <input type="number" id="Years" name="Years" min="0">
-   <label for="Mnthpay">Monthly Payment: </label>
-   <input type="number" id="Mnthpay" name="Mnthpay" min="0">
+   <label for="p">Principal: </label>
+   <input type="number" id="p" name="p" min="0">
+   <label for="r">Interest Rate as % (e.g. 7.9): </label>
+   <input type="number" id="r" name="r" min="0">
+   <label for="t">Number of Years: </label>
+   <input type="number" id="t" name="t" min="0">
+   <label for="m">Monthly Payment: </label>
+   <input type="number" id="m" name="m" min="0">
+   <label for="n">Number of Months: </label>
+   <input type="number" id="n" name="n" min="0">
    <button onclick="calc();">Calculate</button>
    <p id="output"></p>
    <button onclick="reset();">Reset</button>
-   <p id="input"></p>
    </fieldset>
     </form>
 </body>
