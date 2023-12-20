@@ -6,4 +6,11 @@
 button {
     background-color: #93141E;
     align-items: center;
+    font-size: 30px;
+}
+h1 {
+    text-align: center;
+}
+ul, li {
+    text-align: center;
 }
