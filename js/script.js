@@ -1,5 +1,3 @@
-<div id="custom-cursor">
-</div>
 const customCursor = document.getElementById('custom-cursor');
 const hoverContainer = document.querySelector('.hover-container');
 const updateCursorPosition = (event) => {
