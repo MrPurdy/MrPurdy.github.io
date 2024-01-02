@@ -27,8 +27,8 @@ body {
     opacity: 1;
   }
 #custom-cursor {
-    width: 2px;
-    height: 2px;
+    width: 4px;
+    height: 4px;
     border-radius: 50%;
     background-color: white;
     position: fixed;
