@@ -6,7 +6,7 @@ const updateCursorPosition = (event) => {
 }
 window.addEventListener('mousemove', (event) => {
   updateCursorPosition(event)
-
+  
   if (hoverContainer.matches(':hover')) {
     customCursor.classList.add('zoom')
   } else {

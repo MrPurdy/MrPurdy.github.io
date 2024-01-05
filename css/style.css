@@ -19,28 +19,70 @@ table, td, th {
     border-collapse: collapse;
     padding: 10px;
     text-align: center;
-} 
-body {
-    cursor: none;
-  }
-  body:hover #custom-cursor {
-    opacity: 1;
-  }
+}
+
 #custom-cursor {
-    width: 4px;
-    height: 4px;
-    border-radius: 50%;
-    background-color: white;
-    position: fixed;
-    top: 0;
-    opacity: 0;
-    pointer-events: none;
-    mix-blend-mode: difference;
-    transition: transform 500ms;
-  }
-  #custom-cursor.zoom {
-    transform: scale(3);
-  }
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: white;
+  position: fixed;
+  pointer-events: none;
+  top: 0;
+}
+#custom-cursor::after {
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  border: 1px solid white;
+  width: 16px;
+  height: 16px;
+}
+
+#custom-cursor {
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  mix-blend-mode: difference;
+}
+
+body {
+  cursor: none;
+}
+body:hover #custom-cursor {
+  opacity: 1;
+}
+#custom-cursor {
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  mix-blend-mode: difference;
+  opacity: 0;
+}
+
+#custom-cursor {
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  opacity: 0;
+  pointer-events: none;
+  mix-blend-mode: difference;
+  transition: transform 500ms;
+}
+#custom-cursor.zoom {
+  transform: scale(3);
+}
 
   .row > .column {
     padding: 0 8px;
