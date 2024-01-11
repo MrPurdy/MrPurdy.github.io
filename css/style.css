@@ -2,14 +2,17 @@
     background-color: #170314;
     color: #FBE0F5;
     accent-color: #E5553F;
+    font-family: 'Courier New', Courier, monospace;
 }
 button {
     background-color: #93141E;
     align-items: center;
     font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
 }
 h1 {
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 ul, li {
     text-align: center;
@@ -85,7 +88,7 @@ body:hover #custom-cursor {
 }
 
   .row > .column {
-    padding: 0 8px;
+    padding: 0 px;
   }
 
   .row:after {
@@ -156,7 +159,11 @@ body:hover #custom-cursor {
     border-radius: 0 3px 3px 0;
     user-select: none;
     -webkit-user-select: none;
-  }
+    -webkit-border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+    -ms-border-radius: 0 3px 3px 0;
+    -o-border-radius: 0 3px 3px 0;
+}
 
   .next {
     right: 0;
